@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 20vh;
+    /* border: 2px solid red; */
+    display: flex;
+    /* width: 100%; */
+    
+}
+header{
+    background-image: url("zomato1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+.main nav{
+    /* background-color: brown; */
+    width: 100% ;
+    height: 10vh;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
+    padding-top: 2vh;
+   
+}
+.main nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 5vw;
+    font-size: 20px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 8vh;
+    /* border: 2px solid red; */
+}
+.logo{
+    /* border: 2px solid blue; */
+}
+.logo img{
+    width: 30%;
+    height: 12vh;
+    /* border: 2px solid blue; */
+    margin-left: 35%;
+    /* object-fit: cover; */
+}
+.logo p{
+    color: white;
+    font-size: 6vh;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.Search select{
+    height: 7vh;
+    width: 40vh;
+}
+
+.Search {
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    margin-left: 25%;
+    margin-top: 2%;
+
+}
+.Search input{
+    height: 7vh;
+    width: 35vw;
+    margin-left: 0 ;
+}
+.container{
+    display: flex;
+    /* border: 2px solid red; */
+    /* height: 20vh; */
+    /* gap: 20%; */
+    margin-top: 2%;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.container h3{
+    background-color: white;
+    width: 100%;
+}
+.item{
+    width: 25%;
+    height: 30vh;
+    /* overflow: hidden; */
+    position: relative;
+    /* border: 2px solid blue; */
+    border-radius: 80px;
+    
+}
+.item :hover{
+    transform: scale(1.2);
+}
+.item img{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+.heads{
+    position: absolute;
+    bottom: 0;
+    border: 2px solid black;
+}
+#collection{
+    width: 950px;
+    margin: 4% auto;
+    border: 2px solid brown;
+}
+.col-list{
+    border: 2px solid blue;
+    height: 360px;
+    display: flex;
+    gap: 5%;
+    margin: auto;
+}
+
+.col-items{
+    border: 2px solid red;
+    height: 100%;
+    width: 20%;
+}
+.col-items img{
+    height: 100%;
+    width: 100%;
+}
+#locations{
+    margin: 3% auto;
+    /* border: 2px solid green; */
+    /* flex-wrap: wrap; */
+    width: 950px;
+    
+}
+.location-parent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+.location-cont{
+    border: 2px solid gray;
+    width: 30%;
+    padding-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vh;
+    height: 10vh;
+
+}
+#icon{
+    align-items: center;
+    display: flex;
+    margin-right: 2%;
+}
+.contact{
+    display: flex;
+}
+#contact{
+    display: flex;
+}
+.cont-parent{ 
+     /* display: flex; */
+     
+     width: 50%;
+     border: 2px solid red;
+     text-align: center;
+     align-items: center;
+}
+.cont-title{
+    margin-top: 30%;
+}
+.cont-des{
+    margin-top: 4vh;
+}
+.form{
+    margin-top: 4vh;
+}
+.img{
+    height: 100%;
+    width: 40%;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#button{
+    background-color: red;
+    color: white;
+}
